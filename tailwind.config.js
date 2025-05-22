@@ -1,0 +1,73 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        'burgundy': {
+          50: '#FCF5F8',
+          100: '#F9EBF1',
+          200: '#F0CDD9',
+          300: '#E7AFBF',
+          400: '#D6738C',
+          500: '#C53759',
+          600: '#B13251',
+          700: '#762134',
+          800: '#591928',
+          900: '#3C111B',
+          950: '#270A12',
+        },
+        'amber': {
+          50: '#FFFBEB',
+          100: '#FEF3C7',
+          200: '#FDE68A',
+          300: '#FCD34D',
+          400: '#FBBF24',
+          500: '#F59E0B',
+          600: '#D97706',
+          700: '#B45309',
+          800: '#92400E',
+          900: '#78350F',
+          950: '#451A03',
+        },
+        'sage': {
+          50: '#F8FAF5',
+          100: '#F1F5EB',
+          200: '#DCE7CD',
+          300: '#C7D8AF',
+          400: '#A1BB72',
+          500: '#7B9E35',
+          600: '#6F8E30',
+          700: '#4A5F20',
+          800: '#384718',
+          900: '#252F10',
+          950: '#161E0A',
+        },
+        'cream': {
+          50: '#FFFFF7',
+          100: '#FFFFEF',
+          200: '#FFFFD6',
+          300: '#FFFEBE',
+          400: '#FFFD8D',
+          500: '#FFFC5C',
+          600: '#E6E353',
+          700: '#999737',
+          800: '#737229',
+          900: '#4D4C1C',
+          950: '#2E2E0E',
+        },
+      },
+      fontFamily: {
+        'display': ['Playfair Display', 'serif'],
+        'sans': ['Open Sans', 'sans-serif'],
+      },
+      boxShadow: {
+        'elegant': '0 4px 6px rgba(0, 0, 0, 0.05), 0 10px 15px rgba(0, 0, 0, 0.03)',
+        'card': '0 2px 5px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04)',
+      },
+    },
+  },
+  plugins: [],
+} 
